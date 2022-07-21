@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+            <string>PSSwitchCell</string>
+            <key>label</key>
+            <string>Enabled</string>
+            <key>defaults</key>
+            <string>com.vyper.transdock</string>
+            <key>default</key>
+            <true/>
+            <key>key</key>
+            <string>enabled</string>
+            <key>PostNotification</key>
+            <string>batteryRefresh</string>
+            <key>footerText</key>
+            <string>Enable</string>
+        </dict>
+		<dict>
+			<key>cell</key>
+            <string>PSButtonCell</string>
+            <key>label</key>
+            <string>Apply Changes</string>
+            <key>action</key>
+            <string>applyChanges</string>
+            <key>footerText</key>
+            <string>Click here to update your settings.</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>TransDock</string>
+</dict>
+</plist>

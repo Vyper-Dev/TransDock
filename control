@@ -1,0 +1,10 @@
+Package: com.vyper.transdock
+Name: TransDock
+Version: 1.5.5
+Architecture: iphoneos-arm
+Description: Get rid of that pesky dock background!
+Maintainer: Vyper
+Author: Vyper
+Section: Tweaks
+Depiction: https://ashtondbl.com/VyperRepo/depictions/transdock
+Depends: mobilesubstrate (>= 0.9.5000), firmware(>=13.0)
